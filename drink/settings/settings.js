@@ -311,28 +311,12 @@ function devter() {
       </Text>
       <View style={{flexDirection:'row', marginTop: 21}}>
         <Text style={{fontSize: 18,width: 212, height: 22, fontFamily: "Roboto_300Light"}}>Dark mode идэвхжүүлэх</Text>
-        <Switch trackColor={{false: '#EFEFEF', true: '#1993D1'}} thumbColor={isSwitch ? 'white' : '#1993D1'} style={{marginLeft: 32.5}} value={isSwitch} onValueChange={() => {
-          if(!isSwitch){
-          setisSwitch(true);
-          }
-          else {
-            setisSwitch(false);
-          }
-        }}/>
+        <Switch trackColor={{false: '#EFEFEF', true: '#CBCBCB'}} thumbColor={isSwitch ? 'white' : '#CBCBCB'} style={{marginLeft: 32.5}} value={false}/>
       </View>
       <View style={{flexDirection:'row', marginTop: 21}}>
         <Text style={{fontSize: 18,width: 212, height: 22, fontFamily: "Roboto_300Light"}}>Хэл солих</Text>
 
-                <Switch trackColor={{false: '#EFEFEF', true: '#1993D1'}} thumbColor={isSwitchlang ? 'white' : '#1993D1'} style={{marginLeft: 32.5}} value={isSwitchlang} onValueChange={() => {
-          if(!isSwitchlang){
-          setisSwitchlang(true);
-          console.log("true");
-          }
-          else {
-            setisSwitchlang(false);
-            console.log("false");
-          }
-        }}/>
+                <Switch trackColor={{false: '#EFEFEF', true: '#CBCBCB'}} thumbColor={isSwitchlang ? 'white' : '#CBCBCB'} style={{marginLeft: 32.5}} value={false}/>
       </View>
       </View>
     </View>
@@ -395,7 +379,7 @@ export default function Settings({navigation}) {
     <View style={{flex: 1, backgroundColor: "#fff"}}>
 
         <View style={{marginTop: 60}}>
-            <Text style={{fontSize: 32, marginLeft: 30, fontFamily: "Roboto_500Medium"}}>Тохиргоо</Text>
+            <Text style={{fontSize: 32, marginLeft: 30, fontFamily: "Roboto_300Light"}}>Тохиргоо</Text>
         </View>
         <Tab.Navigator 
         tabBarOptions={{

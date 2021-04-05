@@ -158,7 +158,7 @@ export default function Badge() {
             <View style={{height: 159, backgroundColor: "#2F60B5", borderBottomEndRadius: 12, borderBottomLeftRadius: 12}}>
             <View style={{justifyContent:"center", marginTop: 49, marginLeft: 29}}>
                 <Text style={{alignSelf:'flex-start', color: '#FFF', fontSize: 12, fontFamily: 'Roboto_300Light', marginBottom: 8}}>Таны цол</Text>
-                <Text style={{color: '#FFF', fontSize: 28, fontFamily: 'Roboto_700Bold'}}>{badgename}</Text>
+                <Text style={{color: '#FFF', fontSize: 28, fontFamily: 'Roboto_300Light'}}>{badgename}</Text>
                 <TouchableOpacity style={{width: 26, height: 26, borderRadius: 90, borderColor: "#2F60B5", borderWidth: 1, alignItems: "center", justifyContent: "center", position: "absolute", top: 25, right: 35}}>
                 <View>
                 <Svg
